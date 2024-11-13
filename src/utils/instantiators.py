@@ -1,9 +1,9 @@
 from typing import List
 
-import hydra
 from lightning import Callback
 from lightning.pytorch.loggers import Logger
 from omegaconf import DictConfig
+import hydra
 
 from src.utils import pylogger
 
